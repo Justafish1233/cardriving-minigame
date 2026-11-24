@@ -4,7 +4,7 @@
 
 ## 啟用跨裝置共用排行榜
 
-排行榜需要一個可讓匿名訪客讀取與新增成績的資料庫。此專案使用 Supabase；尚未設定時，簽名成績只保存在目前瀏覽器的 localStorage，頁面會清楚標示為「本機排行榜」。
+排行榜需要一個可讓匿名訪客讀取與新增成績的資料庫。此專案使用 Supabase；尚未設定時，簽名成績只保存在目前瀏覽器的 localStorage。排行榜頁面也會提供回饋表單連結。
 
 1. 建立一個 Supabase 專案。
 2. 在 Supabase SQL Editor 執行 `leaderboard.sql`。
